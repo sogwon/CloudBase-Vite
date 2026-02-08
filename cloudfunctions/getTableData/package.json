@@ -1,0 +1,9 @@
+{
+  "name": "getTableData",
+  "version": "1.0.0",
+  "description": "CloudBase Cloud Function - MySQL 테이블 샘플 데이터 조회",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.10.0"
+  }
+}

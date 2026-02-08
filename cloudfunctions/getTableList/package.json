@@ -1,0 +1,9 @@
+{
+  "name": "getTableList",
+  "version": "1.0.0",
+  "description": "CloudBase Cloud Function - MySQL 테이블 목록 조회",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.10.0"
+  }
+}
