@@ -63,6 +63,25 @@ MySQL 테이블 목록은 **서버 전용 API**이므로 웹 클라이언트에�
 - `cloudfunctions/getTableList/` — MySQL 테이블 목록 조회용 Cloud Function
 - `cloudfunctions/getTableData/` — 선택한 테이블의 샘플 데이터 조회용 Cloud Function
 
+## GitHub에 업로드하기
+
+1. [GitHub](https://github.com/new)에서 **New repository** 생성 (저장소 이름 예: `CloudBase-Vite`)
+2. 터미널에서 아래 실행 (`YOUR_USERNAME`과 `CloudBase-Vite`를 본인 저장소로 변경):
+
+```bash
+cd /Users/pumila-1/Cursor/CloudBase-Vite
+git remote add origin https://github.com/YOUR_USERNAME/CloudBase-Vite.git
+git branch -M main
+git push -u origin main
+```
+
+GitHub CLI를 쓰는 경우:
+
+```bash
+cd /Users/pumila-1/Cursor/CloudBase-Vite
+gh repo create CloudBase-Vite --private --source=. --remote=origin --push
+```
+
 ## 참고
 
 - [CloudBase JS SDK V2 초기화](https://docs.cloudbase.net/en/api-reference/webv2/initialization)
